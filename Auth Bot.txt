@@ -1,0 +1,3 @@
+## Client id at "CLIENTID"
+
+https://discordapp.com/oauth2/authorize?&client_id=CLIENTID&scope=bot&permissions=8
