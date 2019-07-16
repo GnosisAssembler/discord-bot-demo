@@ -6,7 +6,7 @@
 
 ## Getting Started
 
-```
+```sh
 # Go to https://discordapp.com/developers/applications/ and get you bot credentials
 
 # clone the repository
