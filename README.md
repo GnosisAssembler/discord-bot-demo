@@ -2,7 +2,7 @@
 
 ![project template](https://img.shields.io/badge/project-template-blue.svg?style=flat-square)
 
-> Template for making a discord bot with nodejs.
+> 📑 Template for making a discord bot with nodejs.
 
 ### Bot Authorization
 Replace 'CLIENTID' with your client id
