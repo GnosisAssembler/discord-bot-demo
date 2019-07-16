@@ -6,7 +6,9 @@
 
 ### Bot Authorization
 Replace 'CLIENTID' with your client id
+```
 https://discordapp.com/oauth2/authorize?&client_id=CLIENTID&scope=bot&permissions=8
+```
 
 ### Packages
 * [node-ytdl-core](https://github.com/fent/node-ytdl-core)
