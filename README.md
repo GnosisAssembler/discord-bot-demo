@@ -1,6 +1,6 @@
 # discord-bot-demo
 
-![status completed](https://img.shields.io/badge/status-completed-blue.svg)
+![project template](https://img.shields.io/badge/project-template-blue.svg?style=flat-square)
 
 Template for making a discord bot with nodejs.
 
