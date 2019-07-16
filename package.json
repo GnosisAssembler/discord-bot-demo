@@ -1,7 +1,7 @@
 {
   "name": "discord-bot-demo",
   "version": "1.0.0",
-  "description": "A sample boilerplate for a discord bot with nodejs.",
+  "description": "Template for making a discord bot with nodejs",
   "main": "bot.js",
   "scripts": {},
   "author": "Panos Karypiadis",

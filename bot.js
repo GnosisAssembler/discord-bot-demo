@@ -14,17 +14,17 @@ client.on('ready', () => {
 });
 
 // Prefix
-const prefix = '~';
+const prefix = '!';
 
 // Static messages
 client.on('message', msg => {
     if (msg.content === prefix + 'help') {
-        msg.channel.sendMessage(`\n1. ~help : Show available commands 
-        \n2. ~boop : Play sombra sound quote
-        \n3. ~hola : Sombra say hi
-        \n4. ~mexicano : Sombra pic
-        \n5. ~iqtest : Finds ur iq
-        \n6. ~music : Play sombra song`);
+        msg.channel.sendMessage(`\n1. !help : Show available commands 
+        \n2. !boop : Play sombra sound quote
+        \n3. !hola : Sombra say hi
+        \n4. !mexicano : Sombra pic
+        \n5. !iqtest : Finds ur iq
+        \n6. !music : Play sombra song`);
     }
 });
 client.on('message', msg => {
