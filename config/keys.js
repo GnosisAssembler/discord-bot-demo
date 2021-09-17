@@ -1,3 +1,9 @@
+/**
+ * Config values
+ */
+
+require('dotenv').config();
+
 module.exports = {
-    botToken: 'YOUR_BOT_TOKEN_HERE'
-}
+	botToken: process.env.BOT_TOKEN,
+};

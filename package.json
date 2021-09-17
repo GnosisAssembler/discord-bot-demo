@@ -2,14 +2,24 @@
   "name": "discord-bot-demo",
   "version": "1.0.0",
   "description": "Template for making a discord bot with nodejs",
-  "main": "bot.js",
-  "scripts": {},
-  "author": "Panos Karypiadis",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore .",
+    "watch": "nodemon index.js",
+    "prod": "pm2 start ecosystem.config.js --env production",
+    "dev": "pm2 start ecosystem.config.js --env development"
+  },
   "license": "MIT",
   "dependencies": {
-    "discord.js": "^11.4.2",
+    "discord.js": "^12.5.3",
+    "dotenv": "^9.0.0",
     "fs": "0.0.1-security",
     "opusscript": "0.0.6",
     "ytdl-core": "^0.26.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.20.0",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
   }
 }
